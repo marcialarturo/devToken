@@ -81,31 +81,3 @@ https://github.com/marcialarturo/devToken/commit/4807077d22a4fbe173599e93610297a
 
 
 
-
-
-
-
-Contract Require functions
-
-- generateQuiz function takes ipfs_url, wallet,
-- mintNTFQuiz function create dynamic NFT with quiz title, my score, date, mintBlock number
-  - getAllNFTs return all NFTs
-  - getAllQuizzesCtreatedByMe return all quizzes
-
-Deployed Contract
-
-- The Mode Sepolia Testnet Network enables our application to scale effectively and maintain cost-efficiency for various transactions, including gift transfers, claims, and new fund additions. The deployment address is 0x9221bde96f1EdD09716253380C8ba15C2F7d00a2.
-
-- WorldCoin offers a feature called social recovery, enabling users (especially minors) without a wallet to regain access to their funds. WorldCoin ensures the authenticity of the user's identity and verifies their ownership of an account before facilitating fund recovery.
-
-with solidity create contract called Crowdfunding with the following functions:
-
-- AddFamilyMember(memberName, memberWallet, donationBalance)
-- retriveMembers() returns all members as an array
-- CreateFund(maticAmount, releaseDate, message, userWallet) this function should be a payable function and the userWallet should be able to claim it.
-
-- getAvailableFundings(userWallet) returns all available Fundings by wallet address based on the release date.If the release date is today or earlier and the fund hasn't been claim return them as an array. also update the donationBalance of the Family Member
-
-- getLockedFundings(userWallet) returns all Locked Fundings by wallet address based on the release date.If the release date is greater then today, return them as an array.
-
-- claimFundingById(fundId) => returns notification
