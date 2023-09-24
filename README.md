@@ -66,7 +66,6 @@ https://github.com/marcialarturo/devToken/commit/4807077d22a4fbe173599e93610297a
 
 - Our application is using using The Graph for a faster data retrival of users data information, rating points, portfolios, experience, and activity.
 
-    We utilized the Graph to index news posts, bounties, and contributions, enabling faster sorting and retrieval of data.
 
 
 
