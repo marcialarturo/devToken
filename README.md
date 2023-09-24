@@ -1,4 +1,3 @@
-Github: https://github.com/marcialarturo/devToken
 
 #  Social  Token
 
